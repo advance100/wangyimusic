@@ -6,7 +6,8 @@
 
 ``` bash
 # 安装依赖
-npm install
+npm install -g cnpm --registry=https://registry.npm.taobao.org
+cnpm install
 
 # 服务器地址是localhost:8080，带热重启方便调试
 npm run dev
